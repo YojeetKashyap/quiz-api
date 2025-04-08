@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/Q.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/quiz", "dest": "api/Q.py" }
+  ]
+}
